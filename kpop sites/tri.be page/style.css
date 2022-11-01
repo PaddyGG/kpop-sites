@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    color: #EEEEEEEE;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-color: #11290D;
+   }
+.nav ul {
+    margin: 0; 
+}
+
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: #EEEEEEEE;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+.nav a:hover{
+    background-color:rgba(255, 255, 255, .3)
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+.main-nav li{
+    padding: 0 5%;
+}
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background: linear-gradient(#F57A39, #11290D);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.band-name{
+    display: block;
+    text-align: center;
+    margin:auto;
+    font-size: 4em;
+    font-family:"Lobster";
+    font-weight: normal;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.band-name:hover{
+    color:#F57A39;
+    cursor: pointer;
+}
+.band-name-large{
+    font-size: 6em;
+}
+
+.content-section{
+    margin: 1em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header{
+    font-family:"Dancing Script";
+    font-weight: normal;
+    color: #F57A39;
+    text-align: center;
+    font-size: 2.5em;
+}
+.about{
+    font-family:"Outfit";
+    margin: 5em;
+}
+.about-band-img{
+    float: left;
+    height: 320px;
+    width: 320px;
+    margin: 15px;
+    border-radius: 50%;
+}
+.stopa{
+    background: #11290D;
+    color: white;
+    padding: .25em 0;
+    display: table-row;
+}
+.stopa-container{
+    display: flex;
+    align-items:center;
+}
+.stopa-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav li{
+    padding: 0 .5em;
+}
+.footer-nav img{
+width: 30px;
+height: 30px;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header{
+    margin: .5em 15% 2em 15%;
+    color: #F57A39;
+    border: 2px solid #F57A39;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.btn-header:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+.btn-play{
+    display: block;
+    margin: 0 auto;
+    color: #F57A39;
+    font-size: 4em;
+    border-radius: 50%;
+    border-left: none;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    -webkit-text-stroke: 1px rgb(33, 17, 75);
+}
+.tour-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    
+}
+.tour-row:last-child{
+    border-bottom: none;
+}
+.tour-item{
+    display: inline-block;
+    padding-right: .5em;
+}
+.tour-date{
+    color: #EEEEEEEE;
+    font-weight: bold;
+    width: 11%;
+    font-size: 1.7em;
+}
+.tour-city{
+    width: 24%;
+    font-size: 2em;
+}
+.tour-btn{
+    max-width: 19%;
+}
+.btn-primary{
+    color: white;
+    background-color: #F57A39;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: "Outfit";
+}
+
+.btn-primary:hover{
+    background-color: #2d9cdb;
+}
+.btn-remove{
+    background-color: #eb5757;
+    border: none;
+    border-radius: .3em;
+    font-family: "Outfit";
+    font-weight: bold;
+    font-size: 1em;
+    color:white; 
+}
+.btn-remove:hover{
+    background-color: #cc4c4c;
+}
+
+.btn-purch{
+   display:block;
+   margin: 40px auto 80px auto;
+   font-size: 1.75em;
+
+}
+.shop-item{
+    margin:30px;
+ }
+ .shop-item-title{
+     display:block;
+     width:100%;
+     text-align:center;
+     font-weight: bold;
+     font-size: 2em;
+     color:white;
+     margin-bottom: 15px;
+ }
+
+ .shop-item-img{
+     height:250px;
+ }
+ .shop-item-details{
+    display:flex;
+    align-items: center;
+    padding:5px
+ }
+.shop-item-price{
+    flex-grow:1;
+    color:white;
+}
+.shop-items{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.container{
+    max-width:700px
+}
+
+
+.cart-header{
+    font-weight: bold;
+    font-size: 1.2em;
+    color:white;
+}
+
+.cart-column{
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    display:flex;
+    align-items: center;    
+}
+.cart-row{
+    display:flex;
+}
+.cart-item{
+ width: 45%;
+}
+
+.cart-price{
+ width: 20%;
+ font-size: 1.2em;
+ color: white;
+}
+
+.cart-quantity{
+ width: 35%;
+}
+
+.cart-item-title{
+    color: white;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-img{
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+.cart-quantity-input{
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56ccf2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+    font-family: Outfit;
+}
+.cart-row:last-child{
+    border-bottom: 1px solid black;
+}
+.cart-row:last-child .cart-column{
+    border:none;
+}
+.cart-total{
+text-align: end;
+margin-top: 10px;
+margin-right: 10px;
+}
+.cart-total-title{
+    font-weight: bold;
+    font-size: 1.5em;
+    color:#F57A39;
+    margin-right:20px;
+}
+.cart-total-price{
+    color: white;
+    font-size: 1.1em;
+}

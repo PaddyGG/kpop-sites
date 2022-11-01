@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+    <title>ONEUS</title>
+    <meta name ="description" content="This is the description">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" async></script>
+</head>
+    <body>
+    <header class="main-header">
+        <nav class="nav main-nav">
+           <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="store.html">STORE</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="members.html">MEMBERS</a></li>
+            <li><a href="../others.html">OTHER ARTISTS</a></li>
+           </ul>
+       </nav>
+
+       <button class="band-name band-name-large" onclick="homefunction()">Oneus</button>
+
+       <div class="container">  
+        <script>
+            function storefunction() {
+                window.open("store.html");
+            }
+
+            function homefunction() {
+                window.open("index.html", "_self");
+            }
+            
+            </script>
+
+       <button class="btn btn-header" onclick="storefunction()" type="button">Get Latest Album</button>
+       </div>
+
+    
+     </header>  
+     <section class="content-section container">
+     <h2 class="section-header">TOURS</h2>
+     <div>
+         <div class="tour-row">
+            <span class="tour-item tour-date">28 nov</span>
+            <span class="tour-item tour-city">Seoul</span>
+            <button  onclick="location.href='https://tr-ent.co.kr/en/tri-be/'"  type="button" class="btn tour-item tour-btn btn-primary">buy tickets</button> 
+         </div>
+         <div class="tour-row">
+            <span class="tour-item tour-date">30 nov</span> 
+            <span class="tour-item tour-city"> LA</span>
+            <button type="button"  class="btn tour-item tour-btn btn-primary">buy tickets</button>      
+         </div>
+         <div class="tour-row">
+            <span class="tour-item tour-date">02 dec</span> 
+            <span class="tour-item tour-city">Warsaw</span>
+            <button type="button"  class="btn tour-item tour-btn btn-primary">buy tickets</button>       
+         </div>
+     </div>
+    </section>    
+     <footer class="stopa">
+        <div class="container stopa-container">
+        <h3 class="band-name">Oneus</h3>
+        <ul class="nav footer-nav">
+           <li>
+               <a href="https://www.youtube.com/channel/UCWTYf4xModfNsyq2NUYjF5g" target="_blank">
+               <img src="imgs/ytimg.png">
+           </a>
+          </li>
+           <li>
+               <a href="https://open.spotify.com/artist/3CVYSpM7nfHFG5qCTW7Ht9?si=AW1JWbImRea9oqivWyBXdQ" target="_blank">
+               <img src="imgs/spoti.png">
+           </a>
+              </li>
+           <li>
+               <a href="https://twitter.com/tribedaloca" target="_blank">
+               <img src="imgs/twitlogo.png">
+           </a>
+              </li>
+        </ul> 
+        </div>   
+    </footer>    
+    </body>
+</html>
